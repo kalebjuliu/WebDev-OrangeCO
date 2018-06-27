@@ -1,0 +1,139 @@
+.womens-winterware
+  display: flex
+  position: relative
+  .dudette-1
+    width: 800px
+    height: 1200px
+    margin-top: 120px
+    background:
+      image: url('dudette-1.jpg')
+      size: cover
+
+  .dudette-2
+    display: flex
+    position: absolute
+    right: 0
+    top: 50%
+    margin-top: -200px
+    .dudette-2-img
+      width: 400px
+      height: 600px
+      background:
+        image: url('dudette-2.jpg')
+        size: cover
+        repeat: no-repeat
+    .dudette-2-content
+      z-index: 2
+      margin-right: 295px
+      margin-top: 70px
+      h1
+        max-width: 300px
+        span:nth-child(1)
+          color: white
+          background-color: $orange
+        span
+          font-family: $font-stack
+          font-weight: 700
+          letter-spacing: 5px
+          display: inline-block
+          margin-bottom: 5px
+          padding: 0 0.3em
+          font-size: 100px
+
+.browse-button-2
+  left: 60%
+  margin-top: -200px
+  position: relative
+  max-width: 350px
+  cursor: pointer
+  h1
+    letter-spacing: 2px
+    line-height: 60px
+    font-size: 40px
+    font-family: $font-stack
+    span
+      color: $orange
+      font-size: 150px
+
+@media (max-width: 1600px)
+  .womens-winterware .dudette-1
+    width: 600px
+    height: 1000px
+  .womens-winterware .dudette-2 .dudette-2-img
+    width: 300px
+    height: 500px
+  .browse-button-2 h1
+    font-size: 30px
+  .browse-button-2 h1 span
+    font-size: 80px
+
+@media (max-width: 1400px)
+  .womens-winterware .dudette-2 .dudette-2-content
+    margin-right: 180px
+  .womens-winterware .dudette-2 .dudette-2-content h1 span
+    font-size: 80px
+
+@media (max-width: 1200px)
+  .womens-winterware .dudette-1
+    width: 400px
+    height: 800px
+
+@media (max-width: 1024px)
+  .womens-winterware .dudette-1
+    width: 400px
+    height: 800px
+    background-position: center left
+  .womens-winterware .dudette-2 .dudette-2-img
+    width: 250px
+    height: 400px
+  .womens-winterware .dudette-2 .dudette-2-content h1 span
+    font-size: 65px
+  .womens-winterware .dudette-2 .dudette-2-content
+    margin-right: 98px
+
+@media (max-width: 800px)
+  .womens-winterware .dudette-2 .dudette-2-img
+    display: none
+  .womens-winterware .dudette-1
+    width: 300px
+    height: 500px
+  .womens-winterware .dudette-2 .dudette-2-content h1 span
+    font-size: 55px
+  .womens-winterware .dudette-2 .dudette-2-content
+    margin-right: 175px
+  .browse-button-2
+    max-width: 150px
+  .browse-button-2 h1
+    font-size: 20px
+    line-height: 30px
+  .browse-button-2 h1 span
+    font-size: 50px
+
+@media (max-width: 500px)
+  .womens-winterware
+    display: block
+  .womens-winterware .dudette-1
+    width: 100%
+  .womens-winterware .dudette-2
+    display: block
+  .womens-winterware .dudette-2 .dudette-2-content
+    margin-right: 0px
+    margin-left: -10px
+  .womens-winterware .dudette-2 .dudette-2-content h1 span
+    font-size: 40px
+  .womens-winterware .dudette-2
+    top: auto
+    margin-top: 0px
+    right: auto
+  .browse-button-2
+    left: auto
+    margin-top: 240px
+    margin-left: 100px
+
+@media (max-width: 415px)
+  .womens-winterware .dudette-2 .dudette-2-content h1 span
+    font-size: 35px  
+
+@media(max-width: 376px)
+  .womens-winterware .dudette-2 .dudette-2-content h1 span
+    font-size: 30px

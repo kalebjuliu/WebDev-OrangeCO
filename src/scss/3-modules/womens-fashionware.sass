@@ -1,0 +1,74 @@
+.womens-fashionware
+  margin-top: 160px
+  margin-right: 150px
+  position: relative
+  .womens
+    position: absolute
+    right: 0
+    .womens-img
+      width: 500px
+      height: 700px
+      background:
+        image: url('https://vg-images.condecdn.net/image/9v2ldr7g3pg/crop/810/f/APC_020_2000.jpg')
+        position: top center
+    .womens-content
+      max-width: 300px
+      h1
+        span:nth-child(1)
+          color: white
+          background-color: $orange
+        span
+          font-family: $font-stack
+          font-weight: 700
+          letter-spacing: 5px
+          display: inline-block
+          margin-bottom: 5px
+          padding: 0 0.3em
+          font-size: 65px
+    .browse-button-3
+      max-width: 200px
+      cursor: pointer
+      h1
+        letter-spacing: 2px
+        line-height: 20px
+        font-size: 20px
+        font-family: $font-stack
+        span
+          color: $orange
+          font-size: 60px
+
+@media (max-width: 1600px)
+  .womens-fashionware .womens .womens-img
+    width: 400px
+    height: 600px
+  .womens-fashionware .womens .womens-content h1 span
+    font-size: 50px
+
+@media(max-width: 1200px)
+  .womens-fashionware .womens
+    right: -150px
+  .womens-fashionware .womens .womens-content h1 span
+    font-size: 40px
+
+@media (max-width: 1024px)
+  .womens-fashionware .womens .womens-img
+    width: 350px
+    height: 550px
+  .womens-fashionware .womens
+    right: -120px
+
+@media (max-width: 800px)
+  .womens-fashionware
+    margin-top: 50px
+  .womens-fashionware .womens .womens-img
+    width: 350px
+    margin: 0 auto
+  .womens-fashionware .womens
+    right: auto
+  .womens-fashionware .womens .womens-content h1 span
+    font-size: 30px
+
+
+@media(max-width: 376px)
+  .womens-fashionware .womens .womens-img
+    width: 300px

@@ -1,0 +1,100 @@
+.mens-fashionware
+  position: relative
+  .mens
+    position: absolute
+    top: 300px
+    left: 100px
+    .mens-img
+      width: 500px
+      height: 700px
+      background:
+        image: url('mens-1.jpg')
+        position: top center
+    .mens-content
+      max-width: 300px
+      h1
+        span:nth-child(1)
+          color: white
+          background-color: $orange
+        span
+          font-family: $font-stack
+          font-weight: 700
+          letter-spacing: 5px
+          display: inline-block
+          margin-bottom: 5px
+          padding: 0 0.3em
+          font-size: 65px
+    .button-section
+      display: flex
+      .browse-button-4
+        max-width: 200px
+        cursor: pointer
+        h1
+          letter-spacing: 2px
+          line-height: 20px
+          font-size: 20px
+          font-family: $font-stack
+          span
+            color: $orange
+            font-size: 60px
+      .browse-button-5
+        margin-left: 800px
+        margin-top: -100px
+        max-width: 400px
+        cursor: pointer
+        h1
+          padding: 30px 40px
+          letter-spacing: 2px
+          line-height: 40px
+          font-size: 30px
+          font-family: $font-stack
+          color: white
+          background-color: $orange
+          span:nth-child(1)
+            word-spacing: 100px
+
+@media (max-width: 1600px)
+  .mens-fashionware .mens .mens-img
+    width: 400px
+    height: 600px
+  .mens-fashionware .mens .mens-content h1 span
+    font-size: 50px
+  .mens-fashionware .mens .button-section .browse-button-5
+    margin-left: 500px
+
+@media(max-width: 1200px)
+  .mens-fashionware .mens
+    left: 0
+  .mens-fashionware .mens .mens-content h1 span
+    font-size: 40px
+  .mens-fashionware .mens .button-section .browse-button-5
+    margin-left: 350px
+
+@media(max-width: 1024px)
+  .mens-fashionware .mens .mens-img
+    width: 350px
+    height: 550px
+  .mens-fashionware .mens .button-section .browse-button-5
+    margin-left: 300px
+  .mens-fashionware .mens .button-section .browse-button-5 h1
+    font-size: 20px
+
+@media (max-width: 800px)
+  .mens-fashionware .mens
+    top: 900px
+  .mens-fashionware .mens .button-section .browse-button-5
+    max-width: 200px
+  .mens-fashionware .mens .button-section .browse-button-5 h1
+    line-height: 20px
+    padding: 20px
+@media (max-width: 500px)
+  .mens-fashionware .mens .button-section .browse-button-5
+    margin-left: -200px
+    margin-top: 90px
+  .mens-fashionware .mens .mens-content h1 span
+    font-size: 30px
+
+
+@media(max-width: 376px)
+  .mens-fashionware .mens .mens-img
+    width: 300px

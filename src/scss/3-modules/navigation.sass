@@ -1,0 +1,86 @@
+.content
+  max-width: 1600px
+  margin: 0 auto
+  position: relative
+
+.header-content
+  max-width: 55%
+  display: flex
+  padding: 80px 0px 40px 0px
+  //margin: auto
+  .logo
+    width: 60px
+    height: 60px
+    background-color: $orange
+    transition: all 0.3s ease-in-out
+
+  ul
+    margin-left: 80px
+    li
+      list-style: none
+      margin-left: 80px
+      display: inline-block
+      a
+        color: $black
+        font-family: $font-stack
+        text-transform: uppercase
+        font-weight: 700
+        transition: all 0.3s ease-in-out
+        padding: 0.3em 0.5em
+      a:hover
+        background-color: $orange
+        color: white
+
+.mobile-nav
+  width: 50px
+  height: 20px
+  background-color: pink
+  display: none
+
+@media (max-width: 1600px)
+  .content
+    max-width: 1400px
+
+@media (max-width: 1400px)
+  .content
+    max-width: 1200px
+  .header-content
+    max-width: 60%
+  .header-content ul
+    margin-left: 40px
+
+@media (max-width: 1200px)
+  .content
+    max-width: 1000px
+  .header-content
+    max-width: 65%
+  .header-content ul
+    margin-left: 0px
+  .header-content ul li
+    margin-left: 40px
+
+@media (max-width: 1024px)
+  .content
+    max-width: 900px
+
+@media (max-width: 800px)
+  .content
+    max-width: 700px
+  .header-content ul
+    display: none
+  .mobile-nav
+    display: flex
+  .header-content
+    max-width: 100%
+    justify-content: space-between
+
+@media (max-width: 500px)
+  .content
+    max-width: 400px
+@media (max-width: 415px)
+  .content
+    max-width: 350px
+
+@media(max-width: 376px)
+  .content
+    max-width: 300px
