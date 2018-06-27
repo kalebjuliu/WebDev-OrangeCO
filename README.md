@@ -1,7 +1,7 @@
 # Orange.Co | Fashion Store
 
 Orange.co is a fictional fashion store made with an unique layout in mind, that follows 2018 design trends.
-Design by Ali Sayed [Check it out!](https://dribbble.com/shots/3561114-Ecommerce-Homepage/attachments/792868).
+Huge shoutout and appreciation for the design by Ali Sayed [Check it out!](https://dribbble.com/shots/3561114-Ecommerce-Homepage/attachments/792868).
 
 ![alt text](https://s22.postimg.cc/an0p9sqcf/Screenshot-2018-6-27_Orange_Co.jpg)
 
